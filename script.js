@@ -25,6 +25,7 @@ function showContent(page) {
 	loader.classList.add('hidden');
 }
 
+//clean up this function a little 
 function createDOMNodes(page) {
 	const currentArray = page === 'results' ? resultsArray : Object.values(favorites);
 	currentArray.forEach((result) => {
